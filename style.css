@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 10px;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: -apple-system, "Helvetica Neue", sans-serif;
+	background: #eee;
+	font-size: 16px;
+}
+
+.wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+p {
+	font-size: 0.875rem;
+	line-height: 1.4rem;
+	max-width: 40%;
+	position: relative;
+	z-index: 1;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	margin-top: 1rem;
+	border-radius: 19px;
+	border: 2px solid black;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+
+.product-demo {
+	transform: translate(200px, -230px) scale(0.8);
+	width: 605px;
+	height: 806px;
+	background: url(img/productSpriteSheet.png);
+}
