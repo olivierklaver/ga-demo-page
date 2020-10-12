@@ -9,3 +9,10 @@ function handleScroll(event) {
 	frame += 0.05;
 	if(frame > 3) frame = 0;
 }
+
+
+// btn
+let orderBtn = document.querySelector('#order-button');
+orderBtn.addEventListener('click', (event) => {
+	gtag('event', 'buy', {'method': 'direct'});
+})
