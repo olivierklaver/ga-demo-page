@@ -14,5 +14,6 @@ function handleScroll(event) {
 // btn
 let orderBtn = document.querySelector('#order-button');
 orderBtn.addEventListener('click', (event) => {
+	console.log('log order event');
 	gtag('event', 'buy', {'method': 'direct'});
 })
