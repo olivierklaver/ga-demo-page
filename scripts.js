@@ -18,8 +18,8 @@ function handleOrderClick(event) {
 	console.log('Order button was clicked');
 
 	gtag('event', 'Order Click', {
-		'event_category': 'order test',
-		'event_label': 'order event happened',
+		'event_category': 'Order',
+		'event_label': 'Leitz NeXXt WOW',
 		'event_callback': function () {
 			document.location = 'https://www.rodekors.no/';
 		}
