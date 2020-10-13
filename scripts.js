@@ -19,6 +19,9 @@ function handleOrderClick(event) {
 
 	gtag('event', 'Order Click', {
 		'event_category': 'order test',
-		'event_label': 'order event happened'
+		'event_label': 'order event happened',
+		'event_callback': function () {
+			document.location = 'https://www.rodekors.no/';
+		}
 	});
 }
